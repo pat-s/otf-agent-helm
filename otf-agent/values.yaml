@@ -10,6 +10,10 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.1.8"
 
+env:
+  OTF_TOKEN: ""
+  OTF_ADDRESS: ""
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
