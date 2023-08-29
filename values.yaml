@@ -21,7 +21,7 @@ env:
   # logging format
   OTF_LOG_FORMAT: "default"
   # Terraform plugin cache
-  OTF_PLUGIN_CACHE: "disabled"
+  OTF_PLUGIN_CACHE: "false"
   # verbosity level
   OTF_V: "0"
 
