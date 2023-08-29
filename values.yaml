@@ -10,6 +10,7 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "0.1.8"
 
+# see https://docs.otf.ninja/latest/config/flags/ for all options
 env:
   # the agent token created in the OTF server instance
   OTF_TOKEN: ""
@@ -17,6 +18,12 @@ env:
   OTF_ADDRESS: ""
   # how many runs each agent runs in parallel
   OTF_CONCURRENCY: "1"
+  # logging format
+  OTF_LOG_FORMAT: "default"
+  # Terraform plugin cache
+  OTF_PLUGIN_CACHE: "disabled"
+  # verbosity level
+  OTF_V: "0"
 
 imagePullSecrets: []
 nameOverride: ""
