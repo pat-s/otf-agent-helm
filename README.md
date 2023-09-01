@@ -4,6 +4,11 @@
 
 A Helm chart for OTF Agent
 
+## Scope
+
+This chart is intended to be used to deploy OTF agents on remote runners when the OTF server instance is running outside of a cluster or a different cluster.
+If the OTF server instance is also running on the same cluster, the [official OTF chart](https://github.com/leg100/otf-charts) should be used instead.
+
 ## Values
 
 | Key | Type | Default | Description |
