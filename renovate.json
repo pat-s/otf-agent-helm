@@ -1,5 +1,4 @@
 {
-  "commitMessageTopic": "helm values {{depName}}",
-  "fileMatch": ["(^|/)values\\.ya?ml$"],
-  "pinDigests": false
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["pat-s/renovate-config"]
 }
