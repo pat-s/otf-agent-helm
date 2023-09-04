@@ -10,7 +10,7 @@ jobs:
   release_helper:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: docker-practice/actions-setup-docker@master
       - name: Run
         uses: addnab/docker-run-action@v3
