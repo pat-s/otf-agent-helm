@@ -1,4 +1,4 @@
-name: Release Chart
+name: Release Helper
 
 on:
   workflow_dispatch:
