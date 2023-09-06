@@ -6,9 +6,6 @@ on:
     branches:
       - "main"
 
-permissions:
-  contents: write
-
 jobs:
   release_helper:
     runs-on: ubuntu-latest
