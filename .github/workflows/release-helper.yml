@@ -28,9 +28,5 @@ jobs:
           GITHUB_REPOSITORY: "${{ github.repository }}"
           isCI: "true"
         run: |
-          pwd
-          ls -la
-          which git
           git config --global --add safe.directory /__w/otf-agent-helm/otf-agent-helm
-          git status
           /app/node_modules/.bin/tsx /app/src/index.ts
