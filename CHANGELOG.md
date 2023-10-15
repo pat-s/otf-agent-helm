@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.4](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.4) - 2023-10-15
+
+### ❤️ Thanks to all contributors! ❤️
+
+@renovate[bot]
+
+### Misc
+
+- chore(deps): update alpine/helm docker tag to v3.13.1 [[#16](https://github.com/pat-s/otf-agent-helm/pull/16)]
+
 ## [0.1.3](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.3) - 2023-09-14
 
 ### ❤️ Thanks to all contributors! ❤️
