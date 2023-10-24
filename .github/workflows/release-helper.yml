@@ -9,7 +9,7 @@ on:
 jobs:
   release_helper:
     runs-on: ubuntu-latest
-    container: woodpeckerci/plugin-ready-release-go
+    container: pats22/plugin-ready-release-go
     steps:
       - uses: actions/checkout@v4
       - name: Run
@@ -24,6 +24,8 @@ jobs:
           PLUGIN_REPO_NAME: "${{ github.event.repository.name }}"
           GITHUB_REPOSITORY: "${{ github.repository }}"
           isCI: "true"
+          RELEASE_PREFIX: "Changelog for version"
+          CUSTOM_RELEASE_BODY: " "
         run: |
           git config --global --add safe.directory /__w/otf-agent-helm/otf-agent-helm
           /app/node_modules/.bin/tsx /app/src/index.ts

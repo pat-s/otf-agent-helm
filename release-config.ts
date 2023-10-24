@@ -1,7 +1,8 @@
 export default {
   commentOnReleasedPullRequests: false,
   useVersionPrefixV: false,
-  getReleaseDescription: "Changelog for version ${version}",
+  includeContributors: false,
+  customReleaseBody: "",
   beforePrepare: async ({ exec, nextVersion }) => {
     await exec(`apk add --no-cache helm curl`);
     await exec(
