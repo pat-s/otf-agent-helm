@@ -8,6 +8,7 @@
 
 ### Misc
 
+- chore(deps): update leg100/otf-agent docker tag to v0.1.14 [[#18](https://github.com/pat-s/otf-agent-helm/pull/18)]
 - chore(deps): update alpine/helm docker tag to v3.13.1 [[#16](https://github.com/pat-s/otf-agent-helm/pull/16)]
 
 ## [0.1.3](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.3) - 2023-09-14
