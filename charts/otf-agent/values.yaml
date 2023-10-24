@@ -8,12 +8,12 @@ image:
   repository: leg100/otf-agent
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "0.1.13"
+  tag: "0.1.14"
 
 # see https://docs.otf.ninja/latest/config/flags/ for all options
 env:
-  # the agent token created in the OTF server instance
-  OTF_TOKEN: ""
+  # the agent token created in the OTF server instance. Must match with the one in the OTF server instance. The value used here is only for testing purposes
+  OTF_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTgxNDkxMTAsImtpbmQiOiJhZ2VudF90b2tlbiIsIm9yZ2FuaXphdGlvbiI6ImN5bmtyYSIsInN1YiI6ImF0LUdiYVBldFVZNDZVQjB3dzgifQ.-4nZYNm0x1F6Q-9eNUrmMY_WceRsYbhRq3LkQGyRzJw"
   # the URL of the OTF server instance
   OTF_ADDRESS: ""
   # how many runs each agent runs in parallel
