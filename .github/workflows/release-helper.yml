@@ -25,7 +25,7 @@ jobs:
           GITHUB_REPOSITORY: "${{ github.repository }}"
           isCI: "true"
           RELEASE_PREFIX: "Changelog for version"
-          CUSTOM_RELEASE_BODY: "custom body test"
+          CUSTOM_RELEASE_BODY: " "
         run: |
           git config --global --add safe.directory /__w/otf-agent-helm/otf-agent-helm
           /app/node_modules/.bin/tsx /app/src/index.ts
