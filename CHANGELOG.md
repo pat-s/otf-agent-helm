@@ -4,8 +4,6 @@
 
 ### ❤️ Thanks to all contributors! ❤️
 
-@renovate[bot]
-
 ### Misc
 
 - chore(deps): update leg100/otf-agent docker tag to v0.1.14 [[#18](https://github.com/pat-s/otf-agent-helm/pull/18)]
