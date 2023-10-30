@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.5](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.5) - 2023-10-30
+
+ 
+
+### Misc
+
+- chore(deps): update leg100/otf-agent docker tag to v0.1.17 [[#19](https://github.com/pat-s/otf-agent-helm/pull/19)]
+
 ## [0.1.4](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.4) - 2023-10-24
 
  
