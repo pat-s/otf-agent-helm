@@ -6,6 +6,7 @@
 
 ### Misc
 
+- chore(deps): update helm/chart-testing-action action to v2.6.0 [[#23](https://github.com/pat-s/otf-agent-helm/pull/23)]
 - chore(deps): update helm/chart-testing-action action to v2.5.0 [[#22](https://github.com/pat-s/otf-agent-helm/pull/22)]
 - chore(deps): update leg100/otf-agent docker tag to v0.1.17 [[#19](https://github.com/pat-s/otf-agent-helm/pull/19)]
 
