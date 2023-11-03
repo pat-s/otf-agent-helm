@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.6](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.6) - 2023-11-03
+
+ 
+
+### Misc
+
+- chore(deps): update helm/chart-testing-action action to v2.6.1 [[#24](https://github.com/pat-s/otf-agent-helm/pull/24)]
+
 ## [0.1.5](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.5) - 2023-11-01
 
  
