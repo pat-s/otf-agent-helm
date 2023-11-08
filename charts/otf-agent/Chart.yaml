@@ -2,7 +2,7 @@ apiVersion: v2
 name: otf-agent
 description: A Helm chart for OTF Agent
 type: application
-version: 0.1.4
+version: 0.1.5
 appVersion: 0.1.18
 maintainers:
   - name: pat-s
