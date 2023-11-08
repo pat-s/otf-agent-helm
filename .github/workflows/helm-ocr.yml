@@ -2,11 +2,9 @@ name: Release Chart to GHCR
 
 on:
   workflow_dispatch:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  create:
   push:
-    tags:
-      - "*"
+    branches:
+      - main
 
 jobs:
   release:
