@@ -1,12 +1,14 @@
 # Changelog
 
-## [0.1.6](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.6) - 2023-11-08
+## [0.1.6](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.6) - 2023-12-11
 
  
 
 ### Misc
 
-- chore(deps): update helm/chart-testing-action action to v2.6.1 [[#24](https://github.com/pat-s/otf-agent-helm/pull/24)]
+- chore(deps): update dependency leg100/otf to v0.2.2 [[#27](https://github.com/pat-s/otf-agent-helm/pull/27)]
+- chore(deps): update actions/setup-python action to v5 [[#29](https://github.com/pat-s/otf-agent-helm/pull/29)]
+- chore(deps): update alpine/helm docker tag to v3.13.2 [[#26](https://github.com/pat-s/otf-agent-helm/pull/26)]
 
 ## [0.1.5](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.5) - 2023-11-01
 
