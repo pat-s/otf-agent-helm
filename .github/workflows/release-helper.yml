@@ -9,7 +9,7 @@ on:
 jobs:
   release_helper:
     runs-on: ubuntu-latest
-    container: pats22/plugin-ready-release-go:1.0.3
+    container: pats22/plugin-ready-release-go
     steps:
       - uses: actions/checkout@v4
       - name: Run
