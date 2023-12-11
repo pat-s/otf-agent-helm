@@ -3,6 +3,8 @@ name: Release Chart to GHCR
 on:
   workflow_dispatch:
   push:
+    tags:
+      - "*"
     branches:
       - main
 
@@ -14,7 +16,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    container: alpine/helm:3.13.1
+    container: alpine/helm:3.13.2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
