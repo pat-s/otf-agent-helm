@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.8](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.8) - 2023-12-12
+
+ 
+
+### Misc
+
+- chore(deps): update dependency leg100/otf to v0.2.3 [[#32](https://github.com/pat-s/otf-agent-helm/pull/32)]
+
 ## [0.1.7](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.7) - 2023-12-11
 
  
