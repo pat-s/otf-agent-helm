@@ -4,7 +4,7 @@ description: A Helm chart for OTF Agent
 type: application
 version: 0.1.7
 # renovate: datasource=github-releases depName=leg100/otf extractVersion=^v(?<version>.*)$
-appVersion: 0.2.2
+appVersion: 0.2.3
 maintainers:
   - name: pat-s
     email: patrick.schratz@gmail.com
