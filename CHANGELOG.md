@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.8](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.8) - 2023-12-12
+## [0.1.8](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.8) - 2023-12-13
 
  
 
