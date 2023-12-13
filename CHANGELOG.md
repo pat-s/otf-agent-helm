@@ -6,6 +6,7 @@
 
 ### Misc
 
+- chore(deps): update leg100/otf-agent docker tag to v0.2.3 [[#35](https://github.com/pat-s/otf-agent-helm/pull/35)]
 - chore(deps): update dependency leg100/otf to v0.2.3 [[#32](https://github.com/pat-s/otf-agent-helm/pull/32)]
 
 ## [0.1.7](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.7) - 2023-12-11
