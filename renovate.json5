@@ -11,4 +11,10 @@
       versioningTemplate: "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
     },
   ],
+  packageRules: [
+    {
+      groupName: "appVersion",
+      matchManagers: ["regex", "helm-values"],
+    },
+  ],
 }
