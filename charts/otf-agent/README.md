@@ -24,7 +24,7 @@ A Helm chart for OTF Agent
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | image.repository | string | `"leg100/otf-agent"` |  |
-| image.tag | string | `"0.2.2"` |  |
+| image.tag | string | `"0.2.3"` |  |
 | imagePullSecrets | list | `[]` |  |
 | nameOverride | string | `""` |  |
 | nodeSelector | object | `{}` |  |
