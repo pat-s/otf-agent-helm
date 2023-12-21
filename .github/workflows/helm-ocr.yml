@@ -37,7 +37,7 @@ jobs:
       contents: write
     needs: release
     runs-on: ubuntu-latest
-    container: jnorwood/helm-docs:v1.11.3
+    container: jnorwood/helm-docs:v1.12.0
     steps:
       - name: Install git
         run: apk add -q --no-cache git
