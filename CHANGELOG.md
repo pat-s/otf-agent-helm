@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.10](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.10) - 2024-02-25
+
+ 
+
+### Misc
+
+- chore(deps): update alpine/helm docker tag to v3.14.2 [[#45](https://github.com/pat-s/otf-agent-helm/pull/45)]
+- chore(deps): update jnorwood/helm-docs docker tag to v1.13.0 [[#44](https://github.com/pat-s/otf-agent-helm/pull/44)]
+- chore(deps): update alpine/helm docker tag to v3.14.1 [[#43](https://github.com/pat-s/otf-agent-helm/pull/43)]
+- chore(deps): update helm/kind-action action to v1.9.0 [[#42](https://github.com/pat-s/otf-agent-helm/pull/42)]
+- chore(deps): update alpine/helm docker tag to v3.14.0 [[#40](https://github.com/pat-s/otf-agent-helm/pull/40)]
+
 ## [0.1.9](https://github.com/pat-s/otf-agent-helm/releases/tag/0.1.9) - 2023-12-21
 
  
