@@ -1,3 +1,5 @@
+Archived due to the archival of the upstream project.
+
 # otf-agent
 
 A Helm chart for OTF Agent
